@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="29.6.6">
+  <diagram name="Page-1" id="3Em2e-U9pfFcXrke5Lfm">
+    <mxGraphModel dx="729" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nCphejMlC_UiuOrLphqQ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="140" width="150" x="390" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nCphejMlC_UiuOrLphqQ-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;product&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;product_id&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;product_name&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;product_size&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;product_category_id&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;product_qty_type&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="400" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="nCphejMlC_UiuOrLphqQ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="160" width="170" x="150" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="nCphejMlC_UiuOrLphqQ-14" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="140" width="170" x="220" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nCphejMlC_UiuOrLphqQ-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="customer_purchases" vertex="1">
+          <mxGeometry height="30" width="130" x="160" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nCphejMlC_UiuOrLphqQ-17" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="150" x="390" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nCphejMlC_UiuOrLphqQ-18" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="170" x="150" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="nCphejMlC_UiuOrLphqQ-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="product_id&lt;div&gt;vendor_id&lt;/div&gt;&lt;div&gt;market_date&lt;/div&gt;&lt;div&gt;customer_id&lt;/div&gt;&lt;div&gt;quantity&lt;/div&gt;&lt;div&gt;cost_to_customer_per_qty&lt;/div&gt;&lt;div&gt;transaction_time&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="160" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="nCphejMlC_UiuOrLphqQ-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="30" x="350" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nCphejMlC_UiuOrLphqQ-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;span class=&quot;mTEjhd&quot; data-sfc-root=&quot;c&quot; data-sfc-cb=&quot;&quot; style=&quot;font-size: 16px; display: inline; caret-color: rgb(10, 10, 10); color: rgb(10, 10, 10); font-family: &amp;quot;Google Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left;&quot;&gt;&lt;span class=&quot;dteT0b&quot; style=&quot;font-size: 1.15em;&quot;&gt;&lt;span data-xpm-copy-root=&quot;&quot; data-xpm-latex=&quot;x \to \infty&quot; style=&quot;display: inline;&quot;&gt;&lt;div style=&quot;position: relative; direction: ltr; display: inline-block;&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; aria-hidden=&quot;true&quot; direction=&quot;ltr&quot; width=&quot;0.926em&quot; height=&quot;0.43em&quot; viewBox=&quot;0 -0.43 0.926 0.43&quot; style=&quot;vertical-align: 0em; overflow: visible; user-select: none;&quot;&gt;&lt;text fill=&quot;#0A0A0A&quot; style=&quot;font-family: XITSMath-Regular; font-size: 1px&quot; transform=&quot;translate(0,0)&quot;&gt;∞&lt;/text&gt;&lt;/svg&gt;&lt;/div&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16px; caret-color: rgb(10, 10, 10); color: rgb(10, 10, 10); font-family: &amp;quot;Google Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="40" x="180" y="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
