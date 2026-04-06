@@ -54,7 +54,26 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Type 1 would be a table that would overwrite old addresses, so the table would be called "customer_address" and the columns in that tables would be:
+- customer_id 
+- street 
+- city 
+- province 
+- postal_code 
+- country 
+
+Type 2 would be a table that would retain changes made to addresses, so the table could still be called "customer_address" but the columns would be:
+- customer_id 
+- street 
+- city 
+- province
+- postal_code 
+- country 
+- start_date 
+- end_date 
+- current_address 
+
+With Type 2, the start_date and end_date would both be filled out with dates of an old address, and current_address would be the boolean FALSE. The new address would be a new row, with all the new address details filled out and the start_date filled out. The end_date would be null since this would be the new address, and the current_address column would be filled out as the boolean TRUE. This way, all the old addresses can be kept and the new address would be there as well. Whereas with Type 1, only the most current information of customer addresses would be filled out and kept (old addresses would be overwritten).
 ```
 
 ***
@@ -183,5 +202,5 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+I found it fascinating that Vicki Boykis identified such an integral piece to the conversation of ethics surrounding the proliferation of AI and machine learning models, which is the role of human and human labour. I admired how Boykis’s curiosity grew as she unpacked how ImageNet came to be and how she didn’t stop until she discovered the roots of the system. This kind of critical questioning and thinking is so important to examining the ethics around AI algorithms and seems to boil down to a simple question of how: how did we get here? How did we get this result/information? And with Boykis’s probing and deep dive into the history of the creation of ImageNet, the question of “who” seems even more vital. It is utterly intriguing that her conclusion was that “every single piece of decision-making in a high-tech neural network initially rests on a human being manually putting something together and making a choice” (Boykis 2019). With humans entangled in the very systems we may view as objective such as these AI systems, there is innate bias that all humans will carry and thus transmit, consciously or not, onto the systems they create and put out into the world. Even with the human intervention of moderating/editing/changing content there will be new biases that arise, which may open new controversies in their present or in their future. I think it is important to keep in mind and consider these questions, just as Boykis did (and probably still is), as the world of technology grows; hopefully human critical thinking and curiosities will grow and we can continue to coexist with new arising technologies but also critique it as necessary. 
 ```
